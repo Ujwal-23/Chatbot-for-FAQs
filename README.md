@@ -1,6 +1,6 @@
 # faq Chatbot
 
-This project is a simple FAQS (Frequently Asked Questions) chatbot that fetches questions and answers from a JSON file and displays them on a webpage. It uses HTML, CSS, and JavaScript to create an interactive user interface, providing an easy way for users to get answers to common questions.
+This project is a simple FAQ (Frequently Asked Questions) chatbot that fetches questions and answers from a JSON file and displays them on a webpage. It uses HTML, CSS, and JavaScript to create an interactive user interface, providing an easy way for users to get answers to common questions.
 
 ## Table of Contents
 - [Features](#features)
