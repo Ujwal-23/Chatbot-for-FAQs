@@ -1,6 +1,6 @@
-# FAQ Chatbot
+# faq Chatbot
 
-This project is a simple FAQ (Frequently Asked Questions) chatbot that fetches questions and answers from a JSON file and displays them on a webpage. It uses HTML, CSS, and JavaScript to create an interactive user interface, providing an easy way for users to get answers to common questions.
+This project is a simple FAQS (Frequently Asked Questions) chatbot that fetches questions and answers from a JSON file and displays them on a webpage. It uses HTML, CSS, and JavaScript to create an interactive user interface, providing an easy way for users to get answers to common questions.
 
 ## Table of Contents
 - [Features](#features)
@@ -13,16 +13,16 @@ This project is a simple FAQ (Frequently Asked Questions) chatbot that fetches q
 
 ## Features
 
-- **Dynamic Content**: Fetches FAQs from a JSON file, allowing for easy updates without modifying the HTML.
+- **Dynamic Content**: Fetches faqs from a JSON file, allowing for easy updates without modifying the HTML.
 - **Interactive UI**: Displays questions and answers dynamically, enhancing user engagement.
 - **Responsive Design**: The layout adapts to various screen sizes for a better user experience on mobile devices.
 
 ## Technologies Used
 
-- **HTML**: Used to structure the webpage, providing a clear layout for the FAQ section.
+- **HTML**: Used to structure the webpage, providing a clear layout for the faq section.
 - **CSS**: For styling the webpage, including colors, fonts, and layout to make it visually appealing.
-- **JavaScript**: Handles the logic for fetching the FAQ data from the JSON file and updating the DOM to display the information.
-- **JSON**: Format used to store the FAQ data, making it easy to read and modify.
+- **JavaScript**: Handles the logic for fetching the faq data from the JSON file and updating the DOM to display the information.
+- **JSON**: Format used to store the faq data, making it easy to read and modify.
 
 ## Installation
 
@@ -54,13 +54,13 @@ To run this project locally, follow these steps:
 ## Usage
 
 1. **Opening the Webpage**:
-   - If you opened the `faq.html` file directly, the page will load in your web browser displaying "Frequently Asked Questions."
+   - If you opened the `index.html` file directly, the page will load in your web browser displaying "Frequently Asked Questions."
 
-2. **Interacting with the FAQ**:
+2. **Interacting with the faq**:
    - The page will automatically fetch the questions and answers from the provided JSON file (`faqs.json`) and display them under the title.
 
 3. **Check the JSON File**:
-   - Ensure that the `faqs.json` file is in the same directory as the `faq.html` file, or update the path in your JavaScript code if it is located elsewhere.
+   - Ensure that the `faqs.json` file is in the same directory as the `index.html` file, or update the path in your JavaScript code if it is located elsewhere.
 
 ## Libraries
 
@@ -71,29 +71,32 @@ The following libraries were used in the development of this project:
   ```bash
   pip install nltk
 SpaCy: Industrial-strength Natural Language Processing library.
-bash
-Copy code
+```bash
 pip install spacy
 python -m spacy download en_core_web_sm
+```
 scikit-learn: A machine learning library for Python.
-bash
-Copy code
+```bash
 pip install scikit-learn
+```
 For Web Development
 jQuery: Used for simplifying HTML document traversing, event handling, and AJAX interactions.
 Bootstrap (if applicable): A front-end framework for designing responsive websites and web applications.
 You can include the necessary libraries in your HTML file using CDN links. For example, to include jQuery and Bootstrap:
 
-html
-Copy code
+```HTML
+HTML
+
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- Bootstrap CSS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+```
 Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
@@ -103,38 +106,38 @@ Click the "Fork" button in the top right corner of the repository page on GitHub
 Clone Your Fork:
 
 Clone your forked repository to your local machine:
-bash
-Copy code
+```bash
 git clone https://github.com/yourusername/faq-chatbot.git
+```
 Create a New Branch:
 
 Navigate to the project directory:
-bash
-Copy code
+```bash
 cd faq-chatbot
+```
 Create a new branch for your feature or bug fix:
-bash
-Copy code
+```bash
 git checkout -b feature/YourFeature
+```
 Make Your Changes:
 
 Edit the code and add your new feature or bug fix.
 Commit Your Changes:
 
 Add the changes to staging:
-bash
-Copy code
+```bash
 git add .
+```
 Commit your changes with a descriptive message:
-bash
-Copy code
+```bash
 git commit -m 'Add some feature'
+```
 Push to Your Branch:
 
 Push your changes to your forked repository:
-bash
-Copy code
+```bash
 git push origin feature/YourFeature
+```
 Open a Pull Request:
 
 Go to your forked repository on GitHub.
